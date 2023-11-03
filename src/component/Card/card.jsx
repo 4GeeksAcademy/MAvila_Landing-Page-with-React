@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = () => {
   return (
-    <div className="container-fluid">
+    <div className="container">
       <div className="row">
         <div className="col-md-3">
           <div className="card" style={{ width: "18rem" }}>
