@@ -3,15 +3,11 @@ import React from 'react';
 
 const jumbotron = () => {
     return (
-        <div className="row position-relative">
-            <div className="col-lg-7 position-absolute top-50 start-50 translate-middle">
-                <div className="jumbotron bg-light mt-4 pb-5">
-                    <h1 className="display-4 text-lg-left d-flex justify-content-start"><b>A Warm Welcome!</b></h1>
-                    <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Labore et dolore magna aliqua.</p>
-                    <a className="btn btn-primary btn-lg  .align-items-start " href="#" role="button">Call to action!</a>
+                <div className="jumbotron bg-light" style={{padding:"20px"}}>
+                    <h1 className="display-4"><b>A Warm Welcome!</b></h1>
+                    <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Labore et dolore magna aliqua.</p>
+                    <button type="button" className="btn btn-primary" href="#" style={{alignItems:"start"}}>Call to action!</button>
                 </div>
-            </div>
-        </div>
     )
 }
 
